@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cápsulas de Salud - Dr. Alberto Recabarren</title>
+    
+    <!-- Fuentes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Cápsulas de Salud</div>
+        <nav class="nav-links">
+            <a href="#about">Acerca del libro</a>
+            <a href="#topics">Contenido</a>
+            <a href="#author">Autor</a>
+        </nav>
+        <button class="btn btn-primary" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">Obtener Copia</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title display-text">La salud no es casualidad</h1>
+            <p class="hero-subtitle">Descubre cómo pequeños cambios diarios y una nueva comprensión de tu cuerpo pueden transformar tu vida.</p>
+            <div>
+                <button class="btn btn-primary" style="margin-right: 16px;" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Leer Prólogo</button>
+                <button class="btn btn-outline" onclick="document.getElementById('cta').scrollIntoView({behavior: 'smooth'})">Comprar ahora</button>
+            </div>
+        </div>
+        <div class="hero-images">
+            <!-- Portada principal -->
+            <img src="./images/WhatsApp Image 2026-02-24 at 19.13.12.jpeg" alt="Cápsulas de Salud" class="book-cover">
+        </div>
+    </section>
+
+    <!-- Prólogo Section -->
+    <section id="about" class="section about">
+        <div class="section-header">
+            <h2 class="section-title">La salud no es casualidad</h2>
+            <p class="section-subtitle">Prólogo</p>
+        </div>
+        
+        <div class="text-content">
+            <p>Vivimos en una época extraordinaria. Nunca la medicina tuvo tantos avances tecnológicos, tantos estudios científicos, tantos recursos diagnósticos. Y sin embargo, nunca hubo tanta ansiedad, tanto estrés y tantas enfermedades crónicas prevenibles.</p>
+            
+            <p>Algo no estamos comprendiendo del todo.</p>
+            
+            <p>Durante años de ejercicio profesional he visto una realidad que se repite: muchas personas depositan su salud exclusivamente en factores externos. En un medicamento. En un estudio. En una consulta. En la tecnología.</p>
+            
+            <span class="highlight">La salud no es solamente la ausencia de enfermedad. Es equilibrio. Es adaptación. Es coherencia entre lo que pensamos, sentimos y hacemos.</span>
+            
+            <p>La enfermedad, en la mayoría de los casos, no aparece de la nada. Es el resultado de múltiples factores que interactúan: hábitos, emociones, estrés sostenido, pensamientos recurrentes, vínculos, entorno, genética y epigenética. Somos seres integrales: físicos, psíquicos, sociales y, para muchos, también espirituales.</p>
+            
+            <p>A lo largo de mi vida profesional comprendí que explicar conceptos médicos complejos en lenguaje simple es una forma de devolverle a las personas el poder sobre su propia salud. Cuando entendemos lo que nos pasa, dejamos de ser espectadores y nos convertimos en protagonistas.</p>
+        </div>
+    </section>
+
+    <!-- Content / Topics Section -->
+    <section id="topics" class="section topics">
+        <div class="section-header">
+            <h2 class="section-title">Cómo leer estas cápsulas</h2>
+            <p class="section-subtitle">Una guía para transitar el libro</p>
+        </div>
+        
+        <div class="text-content" style="color: rgba(255,255,255,0.9); margin-bottom: 40px;">
+            <p>Las Cápsulas de Salud no son capítulos tradicionales. No siguen una estructura académica rígida ni pretenden ser un tratado técnico. Son unidades conceptuales independientes, breves pero profundas, pensadas para ser leídas en pocos minutos y reflexionadas durante mucho tiempo.</p>
+        </div>
+
+        <div class="topics-grid">
+            <div class="topic-card">
+                <div class="topic-icon">🧬</div>
+                <h3 class="topic-title">Integralidad</h3>
+                <p style="color: rgba(255,255,255,0.7)">No somos solo genética, sino también epigenética. Nuestros pensamientos influyen en nuestra biología.</p>
+            </div>
+            
+            <div class="topic-card">
+                <div class="topic-icon">🧠</div>
+                <h3 class="topic-title">Mente y Estrés</h3>
+                <p style="color: rgba(255,255,255,0.7)">El estrés sostenido impacta en todos los sistemas del organismo.</p>
+            </div>
+            
+            <div class="topic-card">
+                <div class="topic-icon">🌱</div>
+                <h3 class="topic-title">Poder de los Hábitos</h3>
+                <p style="color: rgba(255,255,255,0.7)">Los hábitos diarios tienen más poder que muchas intervenciones tardías.</p>
+            </div>
+            
+            <div class="topic-card">
+                <div class="topic-icon">🤝</div>
+                <h3 class="topic-title">Medicina Humana</h3>
+                <p style="color: rgba(255,255,255,0.7)">La medicina necesita integrar tecnología con humanidad.</p>
+            </div>
+        </div>
+        
+        <div class="text-content" style="color: rgba(255,255,255,0.9); margin-top: 40px; text-align: center;">
+            <span class="highlight" style="color: var(--white); font-size: 28px;">"Empoderar significa comprender. Y comprender nos permite decidir mejor."</span>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section id="author" class="section author">
+        <img src="./images/recabarren_1000_1100.jpg" alt="Dr. Alberto Recabarren" class="author-photo">
+        <div class="author-content">
+            <p class="section-subtitle">Sobre el autor</p>
+            <h2 class="author-name display-text">Dr. Alberto Recabarren</h2>
+            <div class="text-content" style="margin: 0;">
+                <p>Médico comprometido con una visión integral de la salud del paciente. Con años de experiencia clínica, ha observado que muchas veces la vida no nos pide un medicamento, sino una transformación.</p>
+                <p>Su propósito es acercar el conocimiento científico a la vida cotidiana, desmitificando conceptos complejos para que cada persona pueda tomar el control de su bienestar de manera consciente y equilibrada. Porque la salud, en gran medida, es decisión.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="cta" class="section cta">
+        <p class="cta-quote">"La salud no es un evento aislado. Es un camino. Y cada día —con pequeños cambios conscientes— podemos elegir transitarlo de una manera más equilibrada..."</p>
+        <h2 class="cta-title">Tu salud es un camino. Da el primer paso hoy.</h2>
+        <p class="cta-desc">Obtén tu copia de Cápsulas de Salud y comienza a entender tu cuerpo, tu mente y tu bienestar como nunca antes.</p>
+        <div class="cta-btns">
+            <button class="btn btn-primary">Adquiere el Libro Físico</button>
+            <!-- Si hubiese versión digital o similar -->
+            <button class="btn btn-outline">Leer Arquitectura de Transformación</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="logo">Cápsulas de Salud</div>
+            <div>
+                <p>Por el Dr. Alberto Recabarren</p>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dr. Alberto Recabarren. Todos los derechos reservados.</p>
+            <div class="nav-links" style="gap: 16px;">
+                <a href="#">Términos</a>
+                <a href="#">Privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
